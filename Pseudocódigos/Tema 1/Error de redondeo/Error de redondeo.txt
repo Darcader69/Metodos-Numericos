@@ -1,0 +1,6 @@
+INICIO
+  valor_real ← 1 / 3
+  valor_redondeado ← REDONDEAR(valor_real, 4 decimales)
+  error_redondeo ← valor_real - valor_redondeado
+  MOSTRAR error_redondeo
+FIN
