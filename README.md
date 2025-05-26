@@ -5,10 +5,10 @@
 ### Introducción:
 >En los métodos numéricos, los errores son inevitables debido a la forma en la que los números reales se representan en una computadora. Estos errores pueden acumularse y afectar la precisión de los resultados. Por lo tanto, es fundamental entender su origen y comportamiento para minimizar sus efectos y desarrollar algoritmos confiables.
 ### Métodos Correspondientes:
-*Error de redondeo 
-*Error por truncamiento
-*Error numerico total
-*Errores por equivocación
-*Errores de formulacion
-*Incertidumbre de datos
-*Error por cancelación numerica
+* Error de redondeo 
+* Error por truncamiento
+* Error numerico total
+* Errores por equivocación
+* Errores de formulacion
+* Incertidumbre de datos
+* Error por cancelación numerica
