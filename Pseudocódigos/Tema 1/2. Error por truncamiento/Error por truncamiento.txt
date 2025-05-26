@@ -1,0 +1,7 @@
+INICIO
+  x ← 0.5
+  valor_real ← e^(-x)
+  aproximacion ← 1 - x + (x^2 / 2)
+  error_truncamiento ← valor_real - aproximacion
+  MOSTRAR error_truncamiento
+FIN

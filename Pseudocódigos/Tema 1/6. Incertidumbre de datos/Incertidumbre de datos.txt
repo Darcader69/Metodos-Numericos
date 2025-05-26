@@ -1,0 +1,10 @@
+INICIO
+  masa ← 10.0
+  masa_con_error ← 10.2
+  aceleracion ← 9.8
+
+  fuerza ← masa * aceleracion
+  fuerza_real ← masa_con_error * aceleracion
+  incertidumbre ← fuerza_real - fuerza
+  MOSTRAR incertidumbre
+FIN

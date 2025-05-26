@@ -1,0 +1,7 @@
+INICIO
+  radio ← 2
+  area_incorrecta ← π * radio * 2
+  area_correcta ← π * radio^2
+  error_equivocacion ← area_correcta - area_incorrecta
+  MOSTRAR error_equivocacion
+FIN

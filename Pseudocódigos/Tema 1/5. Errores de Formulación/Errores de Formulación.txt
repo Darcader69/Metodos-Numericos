@@ -1,0 +1,8 @@
+INICIO
+  g ← 9.81
+  t ← 5
+  altura_modelo_simple ← 0.5 * g * t^2
+  altura_real ← 100
+  error_formulacion ← altura_real - altura_modelo_simple
+  MOSTRAR error_formulacion
+FIN

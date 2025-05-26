@@ -1,0 +1,6 @@
+INICIO
+  valor_exacto ← √2
+  valor_aproximado ← 1.41
+  error_total ← valor_exacto - valor_aproximado
+  MOSTRAR error_total
+FIN
