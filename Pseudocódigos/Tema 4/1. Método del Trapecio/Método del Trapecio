@@ -1,0 +1,9 @@
+FUNCIÓN Trapecio(f, a, b, n)
+    h ← (b - a) / n
+    suma ← (f(a) + f(b)) / 2
+    PARA i ← 1 HASTA n-1 HACER
+        suma ← suma + f(a + i * h)
+    FIN PARA
+    integral ← h * suma
+    DEVOLVER integral
+FIN FUNCIÓN

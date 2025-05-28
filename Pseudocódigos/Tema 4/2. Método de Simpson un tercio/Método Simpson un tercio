@@ -1,0 +1,16 @@
+FUNCIÓN SimpsonUnTercio(f, a, b, n)
+    SI n % 2 ≠ 0 ENTONCES
+        n ← n + 1  // Asegurar que n sea par
+    FIN SI
+    h ← (b - a) / n
+    suma ← f(a) + f(b)
+    PARA i ← 1 HASTA n-1 HACER
+        SI i % 2 = 0 ENTONCES
+            suma ← suma + 2 * f(a + i * h)
+        SINO
+            suma ← suma + 4 * f(a + i * h)
+        FIN SI
+    FIN PARA
+    integral ← (h / 3) * suma
+    DEVOLVER integral
+FIN FUNCIÓN

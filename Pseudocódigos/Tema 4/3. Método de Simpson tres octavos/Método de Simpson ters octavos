@@ -1,0 +1,16 @@
+FUNCIÓN SimpsonTresOctavos(f, a, b, n)
+    SI n % 3 ≠ 0 ENTONCES
+        n ← n + (3 - n % 3)  // Asegurar que n sea múltiplo de 3
+    FIN SI
+    h ← (b - a) / n
+    suma ← f(a) + f(b)
+    PARA i ← 1 HASTA n-1 HACER
+        SI i % 3 = 0 ENTONCES
+            suma ← suma + 2 * f(a + i * h)
+        SINO
+            suma ← suma + 3 * f(a + i * h)
+        FIN SI
+    FIN PARA
+    integral ← (3 * h / 8) * suma
+    DEVOLVER integral
+FIN FUNCIÓN

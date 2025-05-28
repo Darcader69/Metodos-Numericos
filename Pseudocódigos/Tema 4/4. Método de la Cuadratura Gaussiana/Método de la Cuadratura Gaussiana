@@ -1,0 +1,12 @@
+FUNCIÓN CuadraturaGaussiana(f, a, b, n)
+    // Pesos y nodos predefinidos para n=2, 3, etc. (ej: n=2 → w1=w2=1, x1=-1/√3, x2=1/√3)
+    [x, w] ← ObtenerPesosYNodos(n)
+    suma ← 0
+    PARA i ← 1 HASTA n HACER
+        // Mapear x[i] de [-1, 1] a [a, b]
+        xMapeado ← ((b - a) * x[i] + (a + b)) / 2
+        suma ← suma + w[i] * f(xMapeado)
+    FIN PARA
+    integral ← ((b - a) / 2) * suma
+    DEVOLVER integral
+FIN FUNCIÓN
