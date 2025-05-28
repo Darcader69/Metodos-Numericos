@@ -1,6 +1,6 @@
 public class Biseccion4 {
     public static void main(String[] args) {
-        double a = 1, b = 3, tol = 1e-4;
+        double a = 1, b = 3;
         for (int i = 1; i <= 10; i++) {
             double c = (a + b) / 2;
             System.out.printf("Iter %d: c = %.6f, f(c) = %.6f%n", i, c, f(c));
