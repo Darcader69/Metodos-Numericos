@@ -1,0 +1,7 @@
+Entradas: g(x), x0, tolerancia, N
+Para i = 1 hasta N hacer:
+   x1 = g(x0)
+   Si |x1 - x0| < tolerancia entonces
+      Retornar x1 como raíz
+   x0 = x1
+Fin

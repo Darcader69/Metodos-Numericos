@@ -1,0 +1,12 @@
+Entradas: f(x), a, b, tolerancia, N
+Si f(a)*f(b) ≥ 0 entonces
+   Error: no se garantiza raíz
+Para i = 1 hasta N hacer:
+   c = (a + b) / 2
+   Si |f(c)| < tolerancia o (b-a)/2 < tolerancia entonces
+      Retornar c como raíz
+   Si f(a)*f(c) < 0 entonces
+      b = c
+   Sino
+      a = c
+Fin

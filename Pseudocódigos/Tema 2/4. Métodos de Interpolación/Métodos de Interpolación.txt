@@ -1,0 +1,9 @@
+Entradas: puntos (x0, y0), ..., (xn, yn), valor x
+L = 0
+Para j = 0 hasta n hacer:
+   lj = 1
+   Para m = 0 hasta n hacer:
+      Si m ≠ j entonces
+         lj = lj * (x - xm) / (xj - xm)
+   L = L + lj * yj
+Retornar L
