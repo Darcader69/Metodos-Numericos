@@ -1,0 +1,36 @@
+FUNCIÓN Jacobi(A, b, x0, tol, max_iter)
+    ENTRADAS:
+        A: Matriz de coeficientes (n x n)
+        b: Vector de términos independientes (n x 1)
+        x0: Aproximación inicial (n x 1)
+        tol: Tolerancia para el criterio de parada
+        max_iter: Número máximo de iteraciones permitidas
+
+    SALIDA:
+        x: Solución aproximada del sistema
+
+    n ← Número de filas de A
+    x ← x0  // Inicializar el vector solución
+    x_nuevo ← Vector de tamaño n
+
+    PARA iter ← 1 HASTA max_iter HACER
+        PARA i ← 1 HASTA n HACER
+            suma ← 0
+            PARA j ← 1 HASTA n HACER
+                SI j ≠ i ENTONCES
+                    suma ← suma + A[i][j] * x[j]
+                FIN SI
+            FIN PARA
+            x_nuevo[i] ← (b[i] - suma) / A[i][i]
+        FIN PARA
+
+        // Verificar convergencia (norma del residuo o diferencia entre iteraciones)
+        SI Norma(x_nuevo - x) < tol ENTONCES
+            DEVOLVER x_nuevo
+        FIN SI
+
+        x ← x_nuevo  // Actualizar la solución para la próxima iteración
+    FIN PARA
+
+    DEVOLVER x  // Si se alcanza max_iter sin converger
+FIN FUNCIÓN

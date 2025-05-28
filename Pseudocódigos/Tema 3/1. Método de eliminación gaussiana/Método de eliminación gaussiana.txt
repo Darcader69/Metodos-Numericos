@@ -1,0 +1,51 @@
+1. Inicio
+2. Ingresar la matriz de coeficientes aumentados A[n][n+1]:
+Para i desde 0 hasta n-1 hacer
+Para j desde 0 hasta n hacer
+Leer A[i][j]
+Fin Para
+Fin Para
+3. Aplicar eliminación de Gauss con pivoteo parcial:
+Para k desde 0 hasta n-2 hacer
+// Buscar fila con mayor valor absoluto en la columna k
+i_max = k
+v_max = |A[k][k]|
+Para i desde k+1 hasta n-1 hacer
+Si |A[i][k]| > v_max entonces
+v_max = |A[i][k]|
+i_max = i
+Fin Si
+Fin Para
+// Verificar si la matriz es singular
+Si A[i_max][k] = 0 entonces
+Imprimir "Matriz singular. No se puede continuar."
+Detener
+Fin Si
+// Intercambiar fila k con fila i_max si es necesario
+Si i_max ≠ k entonces
+Intercambiar fila k con fila i_max en A
+Fin Si
+// Eliminar elementos debajo del pivote
+Para i desde k+1 hasta n-1 hacer
+relacion = A[i][k] / A[k][k]
+Para j desde k hasta n hacer
+A[i][j] = A[i][j] - relacion * A[k][j]
+Fin Para
+A[i][k] = 0
+Fin Para
+Fin Para
+4. Obtener solución mediante sustitución hacia atrás:
+X[n-1] = A[n-1][n] / A[n-1][n-1]
+Para i desde n-2 hasta 0 hacer
+X[i] = A[i][n]
+Para j desde i+1 hasta n-1 hacer
+X[i] = X[i] - A[i][j] * X[j]
+Fin Para
+X[i] = X[i] / A[i][i]
+Fin Para
+
+5. Mostrar la solución:
+Para i desde 0 hasta n-1 hacer
+Imprimir "X[", i+1, "] = ", X[i] con 6 decimales
+Fin Para
+6. Detener

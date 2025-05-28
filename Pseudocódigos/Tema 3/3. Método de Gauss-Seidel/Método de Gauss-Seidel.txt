@@ -1,0 +1,56 @@
+Inicio  
+Leer n  // Número de ecuaciones y variables  
+
+
+    // Llenar la matriz de coeficientes A  
+    Para i desde 0 hasta n-1 Hacer  
+        Para j desde 0 hasta n-1 Hacer  
+            Leer A[i][j]  
+        Fin Para  
+    Fin Para  
+
+
+    // Llenar el vector de términos independientes b  
+    Para i desde 0 hasta n-1 Hacer  
+        Leer b[i]  
+    Fin Para  
+
+
+    Definir x como un vector de tamaño n, inicializado en 0  
+    Definir xNuevo como un vector de tamaño n, inicializado en 0  
+    Definir iteraciones como 0  
+
+
+    Mientras iteraciones < maxIter Hacer  
+        Copiar x en xNuevo  
+
+
+        Para i desde 0 hasta n-1 Hacer  
+            suma ← 0  
+            Para j desde 0 hasta n-1 Hacer  
+                Si j ≠ i Entonces  
+                    suma ← suma + A[i][j] * xNuevo[j]  
+                Fin Si  
+            Fin Para  
+            xNuevo[i] ← (b[i] - suma) / A[i][i]  
+        Fin Para  
+
+
+        // Verificar convergencia  
+        error ← 0  
+        Para i desde 0 hasta n-1 Hacer  
+            error ← Máx(error, |xNuevo[i] - x[i]|)  
+        Fin Para  
+        Si error < tolerancia Entonces  
+            Mostrar "Convergencia alcanzada en " iteraciones " iteraciones"  
+            Mostrar xNuevo  
+            Terminar  
+        Fin Si  
+
+
+        Copiar xNuevo en x  
+        iteraciones ← iteraciones + 1  
+    Fin Mientras  
+    Mostrar "Máximo número de iteraciones alcanzado. El método puede no haber convergido."  
+    Mostrar x  
+Fin
