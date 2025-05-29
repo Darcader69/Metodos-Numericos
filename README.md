@@ -1,7 +1,7 @@
 # Metodos-Numericos
 ## Repositorio creado para alojar los programas a revisión de la materia
 > Para consultar Pseudocódigos acceder a los siguientes vinculos
-[Pseudocódigos](Pseudocódigos)
+[Pseudocódigos](Pseudocódigos) ,
 [Códigos](Códigos)
 ---------------------------------------------------------------------
 ### T-1 Errores comunes en la computadora
