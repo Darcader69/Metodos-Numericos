@@ -12,3 +12,7 @@ public class Simpsontres5 {
         System.out.println("Integral: " + (3 * h / 8) * suma);
     }
 }
+//
+// Ejecución del programa
+// Integral: 0.34657359027997264
+//

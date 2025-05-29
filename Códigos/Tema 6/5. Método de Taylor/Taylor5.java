@@ -17,3 +17,5 @@ public class Taylor5 {
         System.out.println("Aproximación en x=1: " + y); // ≈ 0.4597 (vs 1 - cos(1) ≈ 0.459697694)
     }
 }
+// Ejecución del programa
+// Aproximación en x=1: 0.45969733451935296

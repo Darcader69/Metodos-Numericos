@@ -15,3 +15,5 @@ public class Cuadrados3 {
         System.out.println("Coeficientes: [a0, a1, a2, a3] ≈ [1, 0, -2, -1]"); // y ≈ -x^3 - 2x^2 + 1
     }
 }
+// Ejecución del programa
+// Coeficientes: [a0, a1] ? [1, 2]

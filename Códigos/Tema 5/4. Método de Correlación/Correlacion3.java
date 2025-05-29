@@ -17,3 +17,5 @@ static class Punto { double x, y; Punto(double x, double y) { this.x = x; this.y
         System.out.println("r ≈ " + r); // r ≈ 0.5
     }
 }
+// Ejecución del programa
+// r ≈ 0.5

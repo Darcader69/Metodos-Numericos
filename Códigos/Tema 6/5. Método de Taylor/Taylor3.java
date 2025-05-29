@@ -14,3 +14,5 @@ public class Taylor3 {
         System.out.println("Aproximación en x=0.5: " + y); // ≈ 2.1487 (vs solución exacta ≈ 2.148721271)
     }
 }
+// Ejecución del programa
+// Aproximación en x=0.5: 1.7948935318812502

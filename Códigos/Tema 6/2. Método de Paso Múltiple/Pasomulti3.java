@@ -18,3 +18,5 @@ public class Pasomulti3 {
         System.out.printf("Aproximación de v(0.6): %.5f m/s\n", v3);
     }
 }
+// Ejecución del programa
+// Aproximación de v(0.6): 4.90000 m/s

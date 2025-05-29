@@ -14,3 +14,5 @@ public class Taylor2 {
         System.out.println("Aproximación en x=1: " + y); // ≈ 0.36788 (vs e^-1 ≈ 0.367879441)
     }
 }
+// Ejecución del programa
+// Aproximación en x=1: 0.36854098483355185

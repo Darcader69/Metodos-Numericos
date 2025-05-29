@@ -15,3 +15,5 @@ public class Regresion5 {
         System.out.println("y = " + m + "x + " + b); // y = 2.0x - 0.333...
     }
 }
+// Ejecución del programa
+// y = 2.0x - 0.3333333333333333

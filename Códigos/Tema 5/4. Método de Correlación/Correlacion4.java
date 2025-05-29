@@ -17,3 +17,5 @@ public class Correlacion4 {
         System.out.println("r = " + r); // r = 0.0
     }
 }
+// Ejecución del programa
+// r = 0.0

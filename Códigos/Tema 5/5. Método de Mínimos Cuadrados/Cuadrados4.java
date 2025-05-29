@@ -14,3 +14,5 @@ public class Cuadrados4 {
         System.out.println("Coeficientes: [a0] ≈ [5]"); // y = 5
     }
 }
+// Ejecución del programa
+// Coeficientes: [a0] ≈ [5]

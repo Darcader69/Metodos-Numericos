@@ -49,3 +49,12 @@ public static void rungeKutta(double t0, double y0, double z0, double tf, double
 }
 
 }
+// Ejecución del programa
+// Ejercicio 3 - Caída libre con fricción
+// t       y       z
+// 1.00    -4.821903       -9.491117
+// 2.00    -18.438845      -17.383051
+// 3.00    -38.824070      -22.999151
+// 4.00    -63.760989      -26.568745
+// 5.00    -91.485784      -28.677816
+// 6.00    -120.821219     -29.870740

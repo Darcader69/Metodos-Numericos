@@ -15,3 +15,5 @@ public class InterpolacionLineal {
         System.out.println("y = " + m + "x + " + b); // y = 1.0x + 0.0
     }
 }
+// Ejecución del programa
+// y = 1.0x + 0.0

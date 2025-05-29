@@ -15,3 +15,5 @@ public class Regresion4 {
         System.out.println("y = " + m + "x + " + b); // y ≈ 1.5x + 0.166...
     }
 }
+// Ejecución del programa
+// y = 1.5x + 0.3333333333333333

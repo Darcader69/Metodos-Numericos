@@ -12,3 +12,5 @@ public class Gaussiana3 {
         System.out.println("Integral: " + ((b - a)/2) * suma);
     }
 }
+// Ejecución del programa
+// Integral: 1.0000000111567542

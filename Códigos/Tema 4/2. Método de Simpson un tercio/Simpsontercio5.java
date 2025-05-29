@@ -12,3 +12,5 @@ public class Simpsontercio5 {
         System.out.println("Integral: " + (h / 3) * suma);
     }
 }
+// Ejecución del programa
+// Integral: 0.7468241328124271

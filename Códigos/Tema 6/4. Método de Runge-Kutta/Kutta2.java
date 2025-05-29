@@ -28,3 +28,12 @@ public class Kutta2 {
         rungeKutta(0, 90, 5, 1);
     }
 }
+// Ejecución del programa
+// Ejercicio 2 - Enfriamiento
+// t       T
+// 1.00    83.338625
+// 2.00    77.311163
+// 3.00    71.857290
+// 4.00    66.922420
+// 5.00    62.457165
+// 6.00    58.416835

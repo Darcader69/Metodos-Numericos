@@ -15,3 +15,5 @@ public class Polinomica5 {
         System.out.println("y = " + resultado); // y ≈ 0.707
     }
 }
+// Ejecución del programa
+// y = 0.75

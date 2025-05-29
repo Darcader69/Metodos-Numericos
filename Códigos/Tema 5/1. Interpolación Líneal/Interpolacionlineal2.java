@@ -21,3 +21,5 @@ precio2, pesoDeseado);
 System.out.println("Precio estimado para " + pesoDeseado + " kg de manzanas: $" + String.format("%.2f", precioEstimado));
 }
 }
+// Ejecución del programa
+// Precio estimado para 0.75 kg de manzanas: $2.15

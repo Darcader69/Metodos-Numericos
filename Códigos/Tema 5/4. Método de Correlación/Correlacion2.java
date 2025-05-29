@@ -18,3 +18,5 @@ public class Correlacion2 {
         System.out.println("r = " + r); // r = -1.0
     }
 }
+// Ejecución del programa
+// r = -1.0

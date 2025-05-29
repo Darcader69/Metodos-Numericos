@@ -14,3 +14,5 @@ public class Cuadrados5 {
         System.out.println("Coeficientes: [a0, a1, a2] ≈ [1, -2, 1]"); // y = x^2 - 2x + 1
     }
 }
+// Ejecución del programa
+// Coeficientes: [a0, a1, a2] ≈ [1, -2, 1]

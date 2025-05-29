@@ -10,3 +10,5 @@ public class Gaussiana {
         System.out.println("Integral: " + suma);
     }
 }
+// Ejecución del programa
+//Integral: 0.6666666666666669

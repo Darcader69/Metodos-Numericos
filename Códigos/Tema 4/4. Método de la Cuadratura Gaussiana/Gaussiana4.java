@@ -10,3 +10,5 @@ public class Gaussiana4 {
         System.out.println("Integral: " + suma);
     }
 }
+// Ejecución del programa
+// Integral: 1.5711720716206754

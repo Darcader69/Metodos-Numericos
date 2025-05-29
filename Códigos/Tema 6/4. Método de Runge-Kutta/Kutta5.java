@@ -28,3 +28,8 @@ public class Kutta5 {
         }
     }
 }
+// Ejecución del programa
+// x               y
+// 0.0             1.00000
+// 0.2             1.24280
+// 0.4             1.58364

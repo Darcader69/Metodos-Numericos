@@ -9,3 +9,5 @@ public class Trapecio2 {
         System.out.println("Integral: " + h * suma);
     }
 }
+// Ejecución del programa
+// Integral: 1.9999983550656624

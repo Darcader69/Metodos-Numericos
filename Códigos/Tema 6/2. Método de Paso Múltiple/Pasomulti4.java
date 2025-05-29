@@ -18,3 +18,5 @@ public class Pasomulti4 {
         System.out.printf("Aproximación de T(0.3): %.5f °C\n", T3);
     }
 }
+// Ejecución del programa
+// Aproximación de T(0.3): 77.64556 °C

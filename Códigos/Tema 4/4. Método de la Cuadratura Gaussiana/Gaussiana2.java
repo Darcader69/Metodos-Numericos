@@ -12,3 +12,5 @@ public class Gaussiana2 {
         System.out.println("Integral: " + ((b - a)/2) * suma);
     }
 }
+// Ejecución del programa
+//Integral: 6.388878163987117

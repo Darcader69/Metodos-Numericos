@@ -31,3 +31,11 @@ public class Unpaso5 {
         System.out.printf("Error absoluto: %.6f%n", error);
     }
 }
+// Ejecución del programa
+// Paso     x               y (Euler)
+// 0        0.00    1.000000
+// 1        0.20    1.200000
+// 2        0.40    1.440000
+// 3        0.60    1.728000
+// 4        0.80    2.073600
+// 5        1.00    2.488320

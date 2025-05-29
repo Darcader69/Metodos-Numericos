@@ -28,3 +28,7 @@ public class Pasomulti5 {
         System.out.printf("Error absoluto: %.5f\n", error);
     }
 }
+// Ejecución del programa
+// Aproximación de y(0.3): 0.54836
+// Valor exacto y(0.3): 0.54881
+// Error absoluto: 0.00045

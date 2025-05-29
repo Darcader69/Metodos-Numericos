@@ -21,3 +21,5 @@ System.out.printf("El valor interpolado en x = %.2f es: f(x) = %.2f%n", x, resul
 }
 }
 }
+// Ejecución del programa
+// El valor interpolado en x = 22.50 es: f(x) = 995.55

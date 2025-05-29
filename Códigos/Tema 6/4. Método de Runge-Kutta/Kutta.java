@@ -25,3 +25,12 @@ public class Kutta {
         rungeKutta(0, 1, 1, 0.2);
     }
 }
+// Ejecución del programa
+// Ejercicio 1 - Crecimiento exponencial
+// x       y
+// 0.20    1.221400
+// 0.40    1.491818
+// 0.60    1.822106
+// 0.80    2.225521
+// 1.00    2.718251
+// 1.20    3.320072

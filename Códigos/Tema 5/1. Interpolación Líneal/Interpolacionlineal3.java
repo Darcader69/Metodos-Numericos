@@ -31,3 +31,5 @@ System.out.println("A " + velocidadDeseada + " km/h, la distancia estimada de fr
 String.format("%.2f", distanciaEstimada) + " metros.");
 }
 }
+// Ejecución del programa
+// A 60.0 km/h, la distancia estimada de frenado es: 34.00 metros.
