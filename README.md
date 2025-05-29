@@ -8,7 +8,7 @@
 ---------------------------------------------------------------------
 ### T-1 Introducción a los métodos númericos.
 #### Introducción:
->En los métodos numéricos, los errores son inevitables debido a la forma en la que los números reales se representan en una computadora. Estos errores pueden acumularse y afectar la precisión de los resultados. Por lo tanto, es fundamental entender su origen y comportamiento para minimizar sus efectos y desarrollar algoritmos confiables.
+>Los métodos numéricos son técnicas algorítmicas diseñadas para resolver problemas matemáticos complejos mediante aproximaciones computacionales. A diferencia de los métodos analíticos, que buscan soluciones exactas, los métodos numéricos proporcionan resultados aproximados con un margen de error controlado, lo que los hace indispensables en situaciones donde las soluciones exactas son imposibles o impracticales de obtener.
 ### Métodos Correspondientes:
 * [Error de redondeo](https://github.com/Darcader69/Metodos-Numericos/tree/a14217f60f5c91e0ab1e53edf5b8e0c85a6e0e3c/C%C3%B3digos/Tema%201/1.%20Error%20de%20redondeo)
 * [Error por truncamiento](https://github.com/Darcader69/Metodos-Numericos/tree/cc27adcf13b3dc2b3245485c81f48ab7268ccd64/C%C3%B3digos/Tema%201/2.%20Error%20por%20truncamiento)
@@ -20,7 +20,7 @@
 ---------------------------------------------------------------------
 ### T-2 Métodos de solución de ecuaciones.
 #### Introducción:
->En los métodos numéricos, los errores son inevitables debido a la forma en la que los números reales se representan en una computadora. Estos errores pueden acumularse y afectar la precisión de los resultados. Por lo tanto, es fundamental entender su origen y comportamiento para minimizar sus efectos y desarrollar algoritmos confiables.
+>En los métodos numéricos, resolver ecuaciones no lineales (como f(x)=0) es un problema fundamental, ya que muchas ecuaciones no tienen soluciones analíticas exactas. Métodos como el de bisección, Newton-Raphson o secante permiten aproximar raíces iterativamente, equilibrando precisión y eficiencia computacional. Estos algoritmos son esenciales en física, ingeniería y optimización, donde las soluciones exactas son inalcanzables.
 ### Métodos Correspondientes:
 * Error de redondeo 
 * Error por truncamiento
@@ -32,7 +32,7 @@
 ---------------------------------------------------------------------
 ### T-3 Métodos de solución de sistemas de ecuaciones.
 #### Introducción:
->En los métodos numéricos, los errores son inevitables debido a la forma en la que los números reales se representan en una computadora. Estos errores pueden acumularse y afectar la precisión de los resultados. Por lo tanto, es fundamental entender su origen y comportamiento para minimizar sus efectos y desarrollar algoritmos confiables.
+>Los sistemas de ecuaciones lineales y no lineales aparecen en modelos de circuitos eléctricos, mecánica de fluidos y machine learning. Técnicas como eliminación gaussiana, descomposición LU o métodos iterativos (Jacobi, Gauss-Seidel) permiten manejar matrices grandes y dispersas. La elección del método depende de la estructura del sistema (diagonal dominante, simetría) y los recursos computacionales disponibles.
 ### Métodos Correspondientes:
 * Error de redondeo 
 * Error por truncamiento
@@ -44,8 +44,7 @@
 ---------------------------------------------------------------------
 ### T-4 Diferenciación e integración númerica.
 #### Introducción:
->En los métodos numéricos, los errores son inevitables debido a la forma en la que los números reales se representan en una computadora. Estos errores pueden acumularse y afectar la precisión de los resultados. Por lo tanto, es fundamental entender su origen y comportamiento para minimizar sus efectos y desarrollar algoritmos confiables.
-### Métodos Correspondientes:
+>Cuando las funciones son complejas o solo se conocen mediante datos discretos, la derivación numérica (diferencias finitas) y la integración numérica (trapecio, Simpson, cuadratura gaussiana) son herramientas clave. Estos métodos aproximan pendientes y áreas bajo curvas, útiles en simulaciones de movimiento, procesamiento de señales y cálculo de probabilidades. La precisión depende del paso (h) y del método seleccionado.
 * Error de redondeo 
 * Error por truncamiento
 * Error numerico total
@@ -56,7 +55,7 @@
  ---------------------------------------------------------------------
  ### T-5 Interpolación y ajuste de funciones.
 #### Introducción:
->En los métodos numéricos, los errores son inevitables debido a la forma en la que los números reales se representan en una computadora. Estos errores pueden acumularse y afectar la precisión de los resultados. Por lo tanto, es fundamental entender su origen y comportamiento para minimizar sus efectos y desarrollar algoritmos confiables.
+>La interpolación (Lagrange, splines) construye funciones que pasan exactamente por puntos dados, ideal para reconstruir datos experimentales. El ajuste de curvas (regresión lineal, mínimos cuadrados) busca modelos que minimicen el error global, útil en machine learning y estadística. Ambos enfoques son fundamentales para predecir valores intermedios o extrapolar tendencias.
 ### Métodos Correspondientes:
 * Error de redondeo 
 * Error por truncamiento
@@ -68,7 +67,7 @@
  ---------------------------------------------------------------------
  ### T-6 Solución de ecuaciones diferenciales.
 #### Introducción:
->En los métodos numéricos, los errores son inevitables debido a la forma en la que los números reales se representan en una computadora. Estos errores pueden acumularse y afectar la precisión de los resultados. Por lo tanto, es fundamental entender su origen y comportamiento para minimizar sus efectos y desarrollar algoritmos confiables.
+>Las ecuaciones diferenciales modelan fenómenos dinámicos como el crecimiento poblacional o el movimiento de planetas. Métodos como Euler, Runge-Kutta o diferencias finitas convierten estas ecuaciones en sistemas discretos manejables por computadora. Su estabilidad y precisión son críticas en simulaciones climáticas, ingeniería aeroespacial y biología computacional.
 ### Métodos Correspondientes:
 * Error de redondeo 
 * Error por truncamiento
