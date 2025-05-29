@@ -64,3 +64,9 @@ public class Jordan2 {
         }
     }
 }
+// Ejecución del programa
+// Sistema de ecuaciones:
+// 1.0	1.0	1.0	6.0
+// 0.0	2.0	5.0	-4.0
+// 2.0	5.0	-1.0	27.0
+//

@@ -6,3 +6,8 @@ public class Aprox4 {
     }
     public static double g(double x) { return (x + 2 / x) / 2; } // Raíz cuadrada de 2
 }
+
+//
+// Ejecución del programa
+// Raíz ≈ 1.414214
+//

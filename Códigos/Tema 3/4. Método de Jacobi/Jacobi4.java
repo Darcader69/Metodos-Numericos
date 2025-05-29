@@ -59,3 +59,8 @@ public class Jacobi4 {
         System.out.println("z = " + x[2]);
     }
 }
+// Convergencia alcanzada en 7 iteraciones.
+// Solución:
+// x = 0.5834069733796297
+// y = 1.9167091435185184
+// z = 1.250096836419753

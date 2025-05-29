@@ -8,3 +8,7 @@ public class Interpolacion {
         System.out.printf("f(%.2f) ≈ %.4f\n", x, y); // Resultado: 3.5
     }
 }
+//
+// Ejecución del programa
+// f(2.00) ≈ 3.5000
+//

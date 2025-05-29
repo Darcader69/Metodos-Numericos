@@ -17,3 +17,7 @@ public class Interpolacion2 {
         System.out.printf("f(%.2f) ≈ %.4f\n", xi, resultado); // Resultado: 1.3333
     }
 }
+//
+// Ejecución del programa
+// f(3.00) ≈ 1.3333
+//

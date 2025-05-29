@@ -8,3 +8,7 @@ public class Aprox3 {
     }
     public static double g(double x) { return Math.cos(x); }
 }
+//
+// Ejecución del programa
+// Raíz ≈ 0.739085
+//

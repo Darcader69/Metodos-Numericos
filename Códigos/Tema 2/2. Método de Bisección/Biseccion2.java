@@ -10,3 +10,7 @@ public class Biseccion2 {
     }
     public static double f(double x) { return Math.cos(x) - x; }
 }
+//
+// Ejecución del programa
+// Raíz ≈ 0.739085
+//

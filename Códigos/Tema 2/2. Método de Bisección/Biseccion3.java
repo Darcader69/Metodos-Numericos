@@ -9,3 +9,7 @@ public class Biseccion3 {
     }
     public static double f(double x) { return Math.exp(x) + x; }
 }
+//
+// Ejecución del programa
+// Raíz ≈ -0.567143
+//

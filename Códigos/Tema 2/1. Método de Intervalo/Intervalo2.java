@@ -12,3 +12,7 @@ public class Intervalo2 {
     }
     public static double f(double x) { return Math.sin(x); }
 }
+//
+// Ejecución del programa
+// Raíz en [0.00, 0.52]
+//

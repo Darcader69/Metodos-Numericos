@@ -9,3 +9,7 @@ public class Intervalo5 {
     }
     public static double f(double x) { return Math.exp(x) + x; }
 }
+//
+// Ejecución del programa
+// Raíz en [-1.00, -0.50]
+//

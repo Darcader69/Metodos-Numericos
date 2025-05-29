@@ -8,3 +8,7 @@ public class Aprox2 {
     }
     public static double g(double x) { return Math.pow(x + 1, 1.0 / 3); }
 }
+//
+// Ejecución del programa
+// Raíz ≈ 1.324718
+//

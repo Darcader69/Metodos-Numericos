@@ -8,3 +8,7 @@ public class Aprox {
     }
     public static double f(double x) { return Math.sqrt(2 * x + 3); }
 }
+//
+// Ejecución del programa
+// Raíz ≈ 2.999999
+//  

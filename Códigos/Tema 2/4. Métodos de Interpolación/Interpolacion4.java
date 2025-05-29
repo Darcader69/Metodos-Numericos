@@ -17,3 +17,7 @@ public class Interpolacion4 {
         System.out.printf("f(%.2f) ≈ %.4f\n", xi, yi); // Resultado: ≈4.4817 (e^1.5 ≈ 4.4817)
     }
 }
+//
+// Ejecución del programa
+// f(1.50) ≈ 4.4817
+//

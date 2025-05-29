@@ -60,3 +60,13 @@ public class Jacobi3 {
         System.out.println("w = " + x[3]);
     }
 }
+// Ejecución del programa
+// Convergencia alcanzada en 10 iteraciones.
+// Solución:
+//Convergencia alcanzada en 11 iteraciones.
+//Solución:
+//x = 0.9999424232758989
+//y = 2.0000847745851624
+//z = -1.0000683271912745
+//w = 1.0001085020119271
+//

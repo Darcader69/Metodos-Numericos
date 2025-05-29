@@ -17,3 +17,8 @@ public class Interpolacion3 {
         System.out.printf("f(%.4f) ≈ %.4f\n", xi, yi); // Resultado: ≈0.7071 (sen(π/4) = √2/2)
     }
 }
+
+//
+// Ejecución del programa
+// f(0.7854) ≈ 0.7071
+//

@@ -9,3 +9,11 @@ public class Intervalo {
     }
     public static double f(double x) { return x * x - 2; }
 }
+//
+// Ejecución del programa
+// Raíz en [-1.50, -1.00]
+// Raíz en [-0.50, 0.00]
+// Raíz en [0.00, 0.50]
+// Raíz en [1.00, 1.50]
+// Raíz en [1.50, 2.00]
+//

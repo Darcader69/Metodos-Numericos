@@ -57,3 +57,41 @@ public class Jordan {
         }
     }
 }
+// Ejecución del programa
+// Resolviendo el Ejercicio 2:
+// Dividiendo fila 1 por 2.0
+// 1.0	-0.5	0.5	1.5
+// 1.0	3.0	2.0	12.0
+// 1.0	-1.0	2.0	0.0
+// Eliminando elemento en fila 2, columna 1
+// 0.0	3.5	1.5	10.5
+// 1.0	3.0	2.0	12.0
+// Eliminando elemento en fila 3, columna 1
+// 0.0	-1.5	1.5	-1.5   
+// 0.0	3.5	1.5	10.5
+// Dividiendo fila 2 por 3.5
+// 0.0	1.0	0.4286	3.0
+// 0.0	-1.5	1.5	-1.5
+// 0.0	3.5	1.5	10.5
+// Eliminando elemento en fila 1, columna 2
+// 1.0	0.0	1.2857	6.0
+// 0.0	1.0	0.4286	3.0
+// Eliminando elemento en fila 3, columna 2
+// 0.0	0.0	1.2857	4.5
+// 1.0	0.0	1.2857	6.0
+//Dividiendo fila 3 por 1.7143
+//1       0       0.7143  3
+//0       1       0.4286  3
+//0       0       1       0
+//Eliminando elemento en fila 1, columna 3
+//1       0       0       3
+//0       1       0.4286  3
+//0       0       1       0
+//Eliminando elemento en fila 2, columna 3
+//1       0       0       3
+//0       1       0       3
+//0       0       1       0
+//Solución del sistema:
+//x1 = 3
+//x2 = 3
+//x3 = 0

@@ -60,3 +60,10 @@ public class Gauss2
         System.out.println("C = " + roundToThreeDecimals(x[2]));
     }
 }
+//
+// Ejecución del programa
+// Solución del sistema (redondeado a 3 cifras decimales):
+// A = 1.000
+// B = 2.000
+// C = 3.000
+//

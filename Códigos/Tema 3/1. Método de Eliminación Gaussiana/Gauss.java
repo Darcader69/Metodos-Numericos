@@ -60,3 +60,10 @@ public class Gauss {
         }
     }
 }
+//
+// Ejecución del programa
+// Fuerzas en los pilares del puente:
+// F1 = 2.000 unidades de fuerza
+// F2 = 3.000 unidades de fuerza
+// F3 = 4.000 unidades de fuerza
+//

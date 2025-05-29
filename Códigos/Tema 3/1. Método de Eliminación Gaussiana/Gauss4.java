@@ -80,3 +80,10 @@ class Gauss4 {
         gaussianElimination(mat);
     }
 }
+//
+// Ejecución del programa
+// Matriz singular.
+// x1 = 2.000
+// x2 = 3.000
+// x3 = -4.000
+//

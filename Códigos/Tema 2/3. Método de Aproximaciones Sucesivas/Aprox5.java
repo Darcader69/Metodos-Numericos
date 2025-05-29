@@ -8,3 +8,7 @@ public class Aprox5 {
     }
     public static double g(double x) { return Math.exp(-x); }
 }
+//
+// Ejecución del programa
+// Raíz ≈ 0.567143
+//

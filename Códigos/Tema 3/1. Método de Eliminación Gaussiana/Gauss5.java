@@ -55,3 +55,9 @@ public class Gauss5 {
         }
     }    
 }
+//
+//Solution for the system:
+//x[0] = 0.106
+//x[1] = 2.635
+//x[2] = 3.282
+//

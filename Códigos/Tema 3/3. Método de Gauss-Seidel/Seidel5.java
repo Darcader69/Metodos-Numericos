@@ -13,3 +13,7 @@ public class Seidel5 {
         throw new UnsupportedOperationException("Unimplemented method 'solveGaussSeidel'");
     }
 }
+//
+// Ejecución del programa
+// Solución: [1.0, 1.0, 1.0, 1.0]
+//

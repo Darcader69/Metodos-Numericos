@@ -91,3 +91,35 @@ public class Seidel {
         scanner.close();
     }
 }
+// Paso 1: Ingreso del tamaño del sistema
+// El usuario especifica que hay 2 ecuaciones con 2 variables
+
+// Paso 2: Ingreso de la matriz de coeficientes
+// Se ingresa cada valor manualmente:
+// Matriz A:
+// [ 1  3 ]
+// [ 1  3 ]
+
+// Paso 3: Ingreso del vector de términos independientes
+// Vector B:
+// [ 1 ]
+// [ 1 ]
+
+// Se construye la matriz aumentada:
+// [ 1  3 | 1 ]
+// [ 1  3 | 1 ]
+
+// Paso 4: Mostrar la matriz ingresada
+// Se imprime la matriz de coeficientes para verificación:
+// 1.00 3.00
+// 1.00 3.00
+
+// Paso 5: Se aplica un método iterativo (como Jacobi o Gauss-Seidel)
+// Se hacen sucesivas aproximaciones hasta que el cambio entre iteraciones sea menor a cierta tolerancia.
+
+// Se alcanza la convergencia en 2 iteraciones (es decir, el sistema se resolvió rápidamente con las condiciones iniciales).
+
+// Paso 6: Mostrar las soluciones
+// Solución del sistema:
+// x1 = 1.000
+// x2 = 0.000

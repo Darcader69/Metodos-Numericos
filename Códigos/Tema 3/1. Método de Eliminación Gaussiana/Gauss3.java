@@ -68,3 +68,10 @@ public class Gauss3{
         gaussianElimination(mat);
     }
 }
+//
+// Ejecución del programa
+// Solucion del sistema:
+// x[0] = 1.000
+// x[1] = 2.000
+// x[2] = 3.000
+//

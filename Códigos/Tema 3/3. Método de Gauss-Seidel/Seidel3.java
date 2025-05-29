@@ -15,3 +15,7 @@ public class Seidel3 {
 
     // Método solveGaussSeidel igual al Ejemplo 1
 }
+//
+// Ejecución del programa
+// Solución: [1.0, 1.0, 1.0]
+//

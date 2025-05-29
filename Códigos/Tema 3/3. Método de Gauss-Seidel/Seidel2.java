@@ -39,3 +39,7 @@ public class Seidel2 {
         return "Seidel2 []";
     }
 }
+//
+// Ejecución del programa
+// Solución: [0.8659793954295123, 1.020618555748899, 1.5154639155121148]
+//

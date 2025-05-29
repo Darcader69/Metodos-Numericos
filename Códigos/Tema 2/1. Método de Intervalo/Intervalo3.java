@@ -9,3 +9,7 @@ public class Intervalo3 {
     }
     public static double f(double x) { return Math.log(x) - 1; }
 }
+//
+// Ejecución del programa
+// Raíz en [1.00, 1.10]
+//

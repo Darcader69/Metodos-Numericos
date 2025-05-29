@@ -9,3 +9,10 @@ public class Intervalo4 {
     }
     public static double f(double x) { return x * x * x - x; }
 }
+//
+// Ejecución del programa
+//Raíz cerca de -1.00
+//Raíz cerca de -0.01
+//Raíz cerca de 0.00
+//Raíz cerca de 0.01
+//

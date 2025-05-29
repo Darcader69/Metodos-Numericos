@@ -64,3 +64,57 @@ public class Jordan5 {
         }
     }
 }
+// Sistema original representado como matriz aumentada:
+// [ 1  2  3 | 14 ]
+// [ 3  2  1 | 10 ]
+// [ 2  3  2 | 13 ]
+
+// Paso 1: Normalizar la primera fila dividiéndola por el coeficiente de x1 (ya es 1, así que no cambia).
+// Fila 1 = Fila 1 / 1
+// [ 1  2  3 | 14 ]
+// [ 3  2  1 | 10 ]
+// [ 2  3  2 | 13 ]
+
+// Paso 2: Eliminar los elementos debajo del pivote en la columna 1.
+// Fila 2 = Fila 2 - 3*Fila 1
+// Fila 3 = Fila 3 - 2*Fila 1
+// Resultado:
+// [ 1  2   3  | 14  ]
+// [ 0 -4  -8  | -32 ]
+// [ 0 -1  -4  | -15 ]
+
+// Paso 3: Normalizar la fila 2 dividiéndola por el coeficiente de x2 (-4).
+// Fila 2 = Fila 2 / -4
+// Resultado:
+// [ 1  2   3  | 14 ]
+// [ 0  1   2  | 8  ]
+// [ 0 -1  -4  | -15 ]
+
+// Paso 4: Eliminar los elementos arriba y abajo del pivote en columna 2.
+// Fila 1 = Fila 1 - 2*Fila 2
+// Fila 3 = Fila 3 + Fila 2
+// Resultado:
+// [ 1  0  -1  | -2  ]
+// [ 0  1   2  | 8   ]
+// [ 0  0  -2  | -7  ]
+
+// Paso 5: Normalizar la fila 3 dividiéndola por el coeficiente de x3 (-2).
+// Fila 3 = Fila 3 / -2
+// Resultado:
+// [ 1  0  -1  | -2   ]
+// [ 0  1   2  | 8    ]
+// [ 0  0   1  | 3.5  ]
+
+// Paso 6: Eliminar los elementos arriba del pivote en columna 3.
+// Fila 1 = Fila 1 + 1*Fila 3
+// Fila 2 = Fila 2 - 2*Fila 3
+// Resultado:
+// [ 1  0  0  | 1.5  ]
+// [ 0  1  0  | 1    ]
+// [ 0  0  1  | 3.5  ]
+
+// Resultado final (matriz identidad a la izquierda y soluciones a la derecha):
+// Solución del sistema:
+// x1 = 1.5
+// x2 = 1
+// x3 = 3.5

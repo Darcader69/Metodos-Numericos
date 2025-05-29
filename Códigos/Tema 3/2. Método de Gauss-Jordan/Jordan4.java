@@ -65,3 +65,53 @@ public class Jordan4 {
         }
     }
 }
+//
+// Ejecución del programa
+// Sistema de ecuaciones:
+// 4.0	-3.0	2.0	5.0
+// 3.0	2.0	-4.0	7.0
+// 2.0	-1.0	3.0	-2.0
+//
+// Procedimiento paso a paso:
+// Dividiendo fila 1 por 4.0
+
+// 1.0	-0.75	0.5	1.25
+// 3.0	2.0	-4.0	7.0
+// 2.0	-1.0	3.0	-2.0
+// Eliminando elemento en fila 2, columna 1
+// 1.0	-0.75	0.5	1.25
+// 0.0	4.25	-5.5	3.75
+// 2.0	-1.0	3.0	-2.0
+// Eliminando elemento en fila 3, columna 1
+// 1.0	-0.75	0.5	1.25
+// 0.0	4.25	-5.5	3.75
+// 0.0	0.5	2.0	-4.5
+// Dividiendo fila 2 por 4.25
+
+// 1.0	-0.75	0.5	1.25
+// 0.0	1.0	-1.2941	0.8824
+// 0.0	0.5	2.0	-4.5
+// Eliminando elemento en fila 1, columna 2
+// 1.0	0.0	1.4706	0.8824
+// 0.0	1.0	-1.2941	0.8824
+// Eliminando elemento en fila 3, columna 2
+// 1.0	0.0	1.4706	0.8824
+// 0.0	1.0	-1.2941	0.8824
+// Dividiendo fila 3 por 2.0
+// 1.0	0.0	1.4706	0.8824
+// 0.0	1.0	-1.2941	0.8824
+// 0.0	0.0	1.0	-2.25
+
+// Eliminando elemento en fila 1, columna 3
+// 1.0	0.0	0.0	4.8824
+// 0.0	1.0	-1.2941	0.8824
+
+// Eliminando elemento en fila 2, columna 3
+// 1.0	0.0	0.0	4.8824
+// 0.0	1.0	0.0	3.1765
+// 0.0	0.0	1.0	-2.25
+// Solución del sistema:
+// x1 = 4.8824
+// x2 = 3.1765
+// x3 = -2.25
+//

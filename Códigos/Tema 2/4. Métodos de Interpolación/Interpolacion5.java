@@ -17,3 +17,7 @@ public class Interpolacion5 {
         System.out.printf("f(%.2f) ≈ %.4f\n", xi, yi); // Resultado: ≈0.125 (0.5^3 = 0.125)
     }
 }
+//
+// Ejecución del programa
+// f(0.50) ≈ 0.1250
+//

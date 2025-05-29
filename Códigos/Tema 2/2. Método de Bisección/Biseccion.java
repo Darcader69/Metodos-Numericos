@@ -9,3 +9,7 @@ public class Biseccion {
     }
     public static double f(double x) { return x * x - 2; }
 }
+//
+// Ejecución del programa
+// Raíz ≈ 1.414214
+//
