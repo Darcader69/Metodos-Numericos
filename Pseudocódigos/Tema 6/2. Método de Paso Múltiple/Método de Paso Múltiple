@@ -1,0 +1,61 @@
+Inicio
+
+    Mostrar "Ingrese la función f(x, y) (ejemplo: 2*y - 6):"
+        Leer funcionStr  // Ejemplo: "2*y - 6"
+
+    // Crear expresión matemática con variables "x" y "y" a partir de funcionStr
+
+    Mostrar "Ingrese x0:"
+        Leer x0
+
+    Mostrar "Ingrese y0:"
+        Leer y0
+
+    Mostrar "Ingrese xf (valor final de x):"
+        Leer xf
+
+    Mostrar "Ingrese h (tamaño del paso):"
+        Leer h
+
+    n ← (xf - x0) / h  // Número de pasos
+
+    // Inicializar listas x[], y[]
+    x[0] ← x0
+    y[0] ← y0
+
+    // Calcular y1 y y2 con Runge-Kutta (de orden 4, por ejemplo)
+    Repetir para i desde 1 hasta 2
+        k1 ← evaluar f(x[i-1], y[i-1])
+        k2 ← evaluar f(x[i-1] + h/2, y[i-1] + (h/2) * k1)
+        k3 ← evaluar f(x[i-1] + h/2, y[i-1] + (h/2) * k2)
+        k4 ← evaluar f(x[i-1] + h, y[i-1] + h * k3)
+
+        y[i] ← y[i-1] + (h / 6) * (k1 + 2*k2 + 2*k3 + k4)
+        x[i] ← x[i-1] + h
+    Fin Repetir
+
+    // Método de Paso Múltiple: Adams-Bashforth de 3 pasos
+    Repetir para i desde 2 hasta n - 1
+
+        f0 ← evaluar f(x[i], y[i])
+        f1 ← evaluar f(x[i-1], y[i-1])
+        f2 ← evaluar f(x[i-2], y[i-2])
+
+        x[i+1] ← x[i] + h
+        y[i+1] ← y[i] + (h / 12) * (23*f0 - 16*f1 + 5*f2)
+
+    Fin Repetir
+
+    Mostrar "Solución aproximada y(xf) ≈", y[n]
+
+Fin
+
+
+Subproceso evaluar(expresión, x, y)
+
+    Asignar valor x a variable "x" en la expresión
+    Asignar valor y a variable "y" en la expresión
+
+    Retornar resultado de evaluar la expresión
+
+Fin Subprocesos

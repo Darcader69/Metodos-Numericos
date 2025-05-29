@@ -1,0 +1,55 @@
+Inicio
+
+
+    Definir función f(x, y) como x + y  // o la función que sea
+
+
+    Leer x0   // valor inicial de x
+
+
+    Leer y0   // valor inicial de y
+
+
+    Leer xf   // valor final de x
+
+
+    Leer h    // tamaño del paso
+
+
+    Calcular n = (xf - x0) / h  // número de pasos
+
+
+    Imprimir "x    y"  
+    
+    Imprimir x0, y0   // imprimir valor inicial
+
+
+    Para i desde 1 hasta n hacer:
+        k1 = f(x0, y0)
+
+
+        k2 = f(x0 + h/2, y0 + (h/2) * k1)
+
+
+        k3 = f(x0 + h/2, y0 + (h/2) * k2)
+
+
+        k4 = f(x0 + h, y0 + h * k3)
+
+
+        y1 = y0 + (h/6) * (k1 + 2*k2 + 2*k3 + k4)
+
+
+        x0 = x0 + h
+
+
+        y0 = y1
+
+
+        Imprimir x0, y0
+
+
+    Fin Para
+
+
+Fin

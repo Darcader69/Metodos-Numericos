@@ -1,0 +1,18 @@
+Entradas:
+  f(x, y): función que representa la derivada o sistema de derivadas
+  x0: valor inicial de x
+  y0: valor inicial de y (puede ser un vector si es un sistema)
+  h: tamaño del paso
+  n: número de pasos
+
+Proceso:
+  x ← x0
+  y ← y0
+
+  Para i desde 1 hasta n hacer:
+    y ← y + h * f(x, y)
+    x ← x + h
+
+    (Opcional: guardar o mostrar el valor de x y y)
+
+Fin

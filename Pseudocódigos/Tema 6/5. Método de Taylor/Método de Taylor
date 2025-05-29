@@ -1,0 +1,19 @@
+Función Taylor(f, a, x, n)
+    Inicializar resultado = 0
+    Inicializar factorial = 1
+    Inicializar potencia = 1
+
+
+    Para i desde 0 hasta n hacer
+        Si i > 0 entonces
+            factorial = factorial * i
+            potencia = potencia * (x - a)
+        Fin Si
+
+
+        resultado = resultado + (f(i, a) * potencia / factorial)
+    Fin Para
+
+
+    Retornar resultado
+Fin Función
