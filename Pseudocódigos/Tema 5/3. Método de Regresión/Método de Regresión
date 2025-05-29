@@ -1,0 +1,13 @@
+FUNCIÓN Regresion(puntos)
+    n ← Número de puntos
+    sumX ← 0, sumY ← 0, sumXY ← 0, sumX2 ← 0
+    PARA CADA punto EN puntos HACER
+        sumX ← sumX + punto.x
+        sumY ← sumY + punto.y
+        sumXY ← sumXY + punto.x * punto.y
+        sumX2 ← sumX2 + punto.x * punto.x
+    FIN PARA
+    m ← (n * sumXY - sumX * sumY) / (n * sumX2 - sumX * sumX)
+    b ← (sumY - m * sumX) / n
+    DEVOLVER (m, b)
+FIN FUNCIÓN

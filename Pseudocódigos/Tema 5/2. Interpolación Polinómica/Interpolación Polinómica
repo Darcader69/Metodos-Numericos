@@ -1,0 +1,14 @@
+FUNCIÓN InterpolacionLagrange(puntos, x)
+    n ← Número de puntos
+    resultado ← 0
+    PARA i ← 0 HASTA n-1 HACER
+        termino ← puntos[i].y
+        PARA j ← 0 HASTA n-1 HACER
+            SI j ≠ i ENTONCES
+                termino ← termino * (x - puntos[j].x) / (puntos[i].x - puntos[j].x)
+            FIN SI
+        FIN PARA
+        resultado ← resultado + termino
+    FIN PARA
+    DEVOLVER resultado
+FIN FUNCIÓN

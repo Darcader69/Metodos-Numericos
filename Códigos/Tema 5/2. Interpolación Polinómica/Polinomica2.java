@@ -1,0 +1,16 @@
+public class Polinomica2 {
+    static class Punto { double x, y; Punto(double x, double y) { this.x = x; this.y = y; } }
+    public static void main(String[] args) {
+        Punto[] puntos = { new Punto(1, 1), new Punto(2, 4), new Punto(3, 9) };
+        double x = 2.5;
+        double resultado = 0;
+        for (int i = 0; i < puntos.length; i++) {
+            double termino = puntos[i].y;
+            for (int j = 0; j < puntos.length; j++) {
+                if (j != i) termino *= (x - puntos[j].x) / (puntos[i].x - puntos[j].x);
+            }
+            resultado += termino;
+        }
+        System.out.println("y = " + resultado); // y = 6.25
+    }
+}

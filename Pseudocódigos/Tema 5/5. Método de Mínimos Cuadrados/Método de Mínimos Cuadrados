@@ -1,0 +1,16 @@
+FUNCIÓN MinimosCuadrados(puntos, grado)
+    // Construir matriz de diseño X y vector Y
+    PARA i ← 0 HASTA n-1 HACER
+        PARA j ← 0 HASTA grado HACER
+            X[i][j] ← puntos[i].x^j
+        FIN PARA
+        Y[i] ← puntos[i].y
+    FIN PARA
+    // Calcular (X^T * X) y (X^T * Y)
+    XT ← Transponer(X)
+    XTX ← Multiplicar(XT, X)
+    XTY ← Multiplicar(XT, Y)
+    // Resolver el sistema XTX * coeficientes = XTY
+    coeficientes ← ResolverSistema(XTX, XTY)
+    DEVOLVER coeficientes
+FIN FUNCIÓN

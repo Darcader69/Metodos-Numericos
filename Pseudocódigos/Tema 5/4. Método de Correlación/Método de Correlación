@@ -1,0 +1,15 @@
+FUNCIÓN Correlacion(puntos)
+    n ← Número de puntos
+    sumX ← 0, sumY ← 0, sumXY ← 0, sumX2 ← 0, sumY2 ← 0
+    PARA CADA punto EN puntos HACER
+        sumX ← sumX + punto.x
+        sumY ← sumY + punto.y
+        sumXY ← sumXY + punto.x * punto.y
+        sumX2 ← sumX2 + punto.x * punto.x
+        sumY2 ← sumY2 + punto.y * punto.y
+    FIN PARA
+    numerador ← n * sumXY - sumX * sumY
+    denominador ← sqrt( (n * sumX2 - sumX^2) * (n * sumY2 - sumY^2) )
+    r ← numerador / denominador
+    DEVOLVER r
+FIN FUNCIÓN

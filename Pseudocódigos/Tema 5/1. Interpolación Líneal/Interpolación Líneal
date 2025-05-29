@@ -1,0 +1,5 @@
+FUNCIÓN InterpolacionLineal(x0, y0, x1, y1, x)
+    // Calcula y para un x dado entre (x0, y0) y (x1, y1)
+    y ← y0 + ( (y1 - y0) / (x1 - x0) ) * (x - x0)
+    DEVOLVER y
+FIN FUNCIÓN
