@@ -22,57 +22,44 @@
 #### Introducción:
 >En los métodos numéricos, resolver ecuaciones no lineales (como f(x)=0) es un problema fundamental, ya que muchas ecuaciones no tienen soluciones analíticas exactas. Métodos como el de bisección, Newton-Raphson o secante permiten aproximar raíces iterativamente, equilibrando precisión y eficiencia computacional. Estos algoritmos son esenciales en física, ingeniería y optimización, donde las soluciones exactas son inalcanzables.
 ### Métodos Correspondientes:
-* Error de redondeo 
-* Error por truncamiento
-* Error numerico total
-* Errores por equivocación
-* Errores de formulacion
-* Incertidumbre de datos
-* Error por cancelación numerica
+* [Método de Intervalo](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%202/1.%20M%C3%A9todo%20de%20Intervalo)
+* [Método de Bisección](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%202/2.%20M%C3%A9todo%20de%20Bisecci%C3%B3n)
+* [Método de Aproximaciones Sucesivas](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%202/3.%20M%C3%A9todo%20de%20Aproximaciones%20Sucesivas)
+* [Métodos de Interpolación](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%202/4.%20M%C3%A9todos%20de%20Interpolaci%C3%B3n)
 ---------------------------------------------------------------------
 ### T-3 Métodos de solución de sistemas de ecuaciones.
 #### Introducción:
 >Los sistemas de ecuaciones lineales y no lineales aparecen en modelos de circuitos eléctricos, mecánica de fluidos y machine learning. Técnicas como eliminación gaussiana, descomposición LU o métodos iterativos (Jacobi, Gauss-Seidel) permiten manejar matrices grandes y dispersas. La elección del método depende de la estructura del sistema (diagonal dominante, simetría) y los recursos computacionales disponibles.
 ### Métodos Correspondientes:
-* Error de redondeo 
-* Error por truncamiento
-* Error numerico total
-* Errores por equivocación
-* Errores de formulacion
-* Incertidumbre de datos
-* Error por cancelación numerica
+* [Método de Eliminación Gaussiana](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%203/1.%20M%C3%A9todo%20de%20Eliminaci%C3%B3n%20Gaussiana)
+* [Método de Gauss-Jordan](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%203/2.%20M%C3%A9todo%20de%20Gauss-Jordan)
+* [Método de Gauss-Seidel](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%203/3.%20M%C3%A9todo%20de%20Gauss-Seidel)
+* [Método de Jacobi](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%203/4.%20M%C3%A9todo%20de%20Jacobi)
 ---------------------------------------------------------------------
 ### T-4 Diferenciación e integración númerica.
 #### Introducción:
 >Cuando las funciones son complejas o solo se conocen mediante datos discretos, la derivación numérica (diferencias finitas) y la integración numérica (trapecio, Simpson, cuadratura gaussiana) son herramientas clave. Estos métodos aproximan pendientes y áreas bajo curvas, útiles en simulaciones de movimiento, procesamiento de señales y cálculo de probabilidades. La precisión depende del paso (h) y del método seleccionado.
-* Error de redondeo 
-* Error por truncamiento
-* Error numerico total
-* Errores por equivocación
-* Errores de formulacion
-* Incertidumbre de datos
-* Error por cancelación numerica
+* [Método del Trapecio](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%204/1.%20M%C3%A9todo%20del%20Trapecio)
+* [Método de Simpson un tercio](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%204/2.%20M%C3%A9todo%20de%20Simpson%20un%20tercio)
+* [Método de Simpson tres octavos](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%204/3.%20M%C3%A9todo%20de%20Simpson%20tres%20octavos)
+* [Método de la Cuadratura Gaussiana](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%204/4.%20M%C3%A9todo%20de%20la%20Cuadratura%20Gaussiana)
  ---------------------------------------------------------------------
  ### T-5 Interpolación y ajuste de funciones.
 #### Introducción:
 >La interpolación (Lagrange, splines) construye funciones que pasan exactamente por puntos dados, ideal para reconstruir datos experimentales. El ajuste de curvas (regresión lineal, mínimos cuadrados) busca modelos que minimicen el error global, útil en machine learning y estadística. Ambos enfoques son fundamentales para predecir valores intermedios o extrapolar tendencias.
 ### Métodos Correspondientes:
-* Error de redondeo 
-* Error por truncamiento
-* Error numerico total
-* Errores por equivocación
-* Errores de formulacion
-* Incertidumbre de datos
-* Error por cancelación numerica
+* [Interpolación Líneal](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/1.%20Interpolaci%C3%B3n%20L%C3%ADneal) 
+* [Interpolación Polinómica](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/2.%20Interpolaci%C3%B3n%20Polin%C3%B3mica)
+* [Método de Regresión](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/3.%20M%C3%A9todo%20de%20Regresi%C3%B3n)
+* [Método de Correlación](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/4.%20M%C3%A9todo%20de%20Correlaci%C3%B3n)
+* [Método de Mínimos Cuadrados](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/5.%20M%C3%A9todo%20de%20M%C3%ADnimos%20Cuadrados)
  ---------------------------------------------------------------------
  ### T-6 Solución de ecuaciones diferenciales.
 #### Introducción:
 >Las ecuaciones diferenciales modelan fenómenos dinámicos como el crecimiento poblacional o el movimiento de planetas. Métodos como Euler, Runge-Kutta o diferencias finitas convierten estas ecuaciones en sistemas discretos manejables por computadora. Su estabilidad y precisión son críticas en simulaciones climáticas, ingeniería aeroespacial y biología computacional.
 ### Métodos Correspondientes:
-* Error de redondeo 
-* Error por truncamiento
-* Error numerico total
-* Errores por equivocación
-* Errores de formulacion
-* Incertidumbre de datos
-* Error por cancelación numerica
+* [Método de Un Paso](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/1.%20M%C3%A9todo%20de%20Un%20Paso)
+* [Método de Paso Múltiple](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/2.%20M%C3%A9todo%20de%20Paso%20M%C3%BAltiple)
+* [Método de Euler](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/3.%20M%C3%A9todo%20de%20Euler)
+* [Método de Runge-Kutta](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/4.%20M%C3%A9todo%20de%20Runge-Kutta)
+* [Método de Taylor](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/5.%20M%C3%A9todo%20de%20Taylor)
