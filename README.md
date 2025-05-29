@@ -55,26 +55,40 @@
 #### Introducción:
 >Cuando las funciones son complejas o solo se conocen mediante datos discretos, la derivación numérica (diferencias finitas) y la integración numérica (trapecio, Simpson, cuadratura gaussiana) son herramientas clave. Estos métodos aproximan pendientes y áreas bajo curvas, útiles en simulaciones de movimiento, procesamiento de señales y cálculo de probabilidades. La precisión depende del paso (h) y del método seleccionado.
 * [Método del Trapecio](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%204/1.%20M%C3%A9todo%20del%20Trapecio)
+  - El método del trapecio es una técnica de integración numérica que aproxima el área bajo una curva utilizando un trapecio para cada subintervalo. Es simple y efectivo para funciones suaves, y su precisión mejora al aumentar el número de subintervalos. Es especialmente útil cuando la función no tiene una integral analítica.
 * [Método de Simpson un tercio](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%204/2.%20M%C3%A9todo%20de%20Simpson%20un%20tercio)
+  - El método de Simpson 1/3 es una técnica de integración basada en aproximar la función por parábolas sobre cada par de subintervalos. Proporciona una mayor precisión que el método del trapecio para funciones suaves, ya que utiliza polinomios de segundo grado.
 * [Método de Simpson tres octavos](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%204/3.%20M%C3%A9todo%20de%20Simpson%20tres%20octavos)
+  - El método de Simpson 3/8 también aproxima la integral mediante polinomios, pero en este caso usa tres subintervalos y un polinomio cúbico. Es útil cuando el número total de subintervalos no es divisible por dos pero sí por tres, y puede complementar el método 1/3.
 * [Método de la Cuadratura Gaussiana](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%204/4.%20M%C3%A9todo%20de%20la%20Cuadratura%20Gaussiana)
+  - La cuadratura gaussiana es un método avanzado de integración que selecciona puntos de evaluación y pesos óptimos para maximizar la precisión con pocos puntos. A diferencia de métodos clásicos, no requiere subintervalos uniformes y puede integrar exactamente polinomios de alto grado.
  ---------------------------------------------------------------------
  ### T-5 Interpolación y ajuste de funciones.
 #### Introducción:
 >La interpolación (Lagrange, splines) construye funciones que pasan exactamente por puntos dados, ideal para reconstruir datos experimentales. El ajuste de curvas (regresión lineal, mínimos cuadrados) busca modelos que minimicen el error global, útil en machine learning y estadística. Ambos enfoques son fundamentales para predecir valores intermedios o extrapolar tendencias.
 ### Métodos Correspondientes:
-* [Interpolación Líneal](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/1.%20Interpolaci%C3%B3n%20L%C3%ADneal) 
+* [Interpolación Líneal](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/1.%20Interpolaci%C3%B3n%20L%C3%ADneal)
+  - La interpolación lineal estima valores intermedios entre dos puntos conocidos asumiendo que la función sigue una línea recta entre ellos. Es sencilla, rápida y adecuada para funciones que cambian de forma relativamente uniforme. 
 * [Interpolación Polinómica](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/2.%20Interpolaci%C3%B3n%20Polin%C3%B3mica)
+  - La interpolación polinómica utiliza un polinomio de grado n para ajustar exactamente n+1 puntos de datos. Aunque es precisa localmente, puede sufrir oscilaciones para conjuntos grandes (fenómeno de Runge), por lo que debe aplicarse con precaución.
 * [Método de Regresión](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/3.%20M%C3%A9todo%20de%20Regresi%C3%B3n)
+  - La regresión es una técnica estadística que ajusta una función (generalmente lineal o polinómica) a un conjunto de datos experimentales, minimizando el error entre los valores reales y los predichos. A diferencia de la interpolación, no exige que los puntos se ajusten exactamente.
 * [Método de Correlación](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/4.%20M%C3%A9todo%20de%20Correlaci%C3%B3n)
+  - El método de correlación mide la relación lineal entre dos variables. Cuantifica qué tan fuerte y en qué dirección se relacionan los datos, con un coeficiente que varía entre -1 y 1. Es clave en el análisis estadístico y el modelado de datos.
 * [Método de Mínimos Cuadrados](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%205/5.%20M%C3%A9todo%20de%20M%C3%ADnimos%20Cuadrados)
+  - El método de mínimos cuadrados busca minimizar la suma de los cuadrados de las diferencias entre los datos reales y el modelo ajustado. Es la base de la regresión lineal y otros modelos estadísticos de ajuste, muy útil cuando hay ruido o errores en los datos.
  ---------------------------------------------------------------------
  ### T-6 Solución de ecuaciones diferenciales.
 #### Introducción:
 >Las ecuaciones diferenciales modelan fenómenos dinámicos como el crecimiento poblacional o el movimiento de planetas. Métodos como Euler, Runge-Kutta o diferencias finitas convierten estas ecuaciones en sistemas discretos manejables por computadora. Su estabilidad y precisión son críticas en simulaciones climáticas, ingeniería aeroespacial y biología computacional.
 ### Métodos Correspondientes:
 * [Método de Un Paso](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/1.%20M%C3%A9todo%20de%20Un%20Paso)
+  - Los métodos de un paso calculan la solución de una EDO utilizando únicamente el valor de la iteración anterior. Son simples de implementar y computacionalmente eficientes, pero pueden ser sensibles a la elección del paso de integración.
 * [Método de Paso Múltiple](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/2.%20M%C3%A9todo%20de%20Paso%20M%C3%BAltiple)
+  - Los métodos de paso múltiple utilizan varios valores previos para calcular el siguiente valor de la solución. Esto permite alcanzar mayor precisión y estabilidad, aunque requieren condiciones iniciales adicionales y una estructura más compleja.
 * [Método de Euler](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/3.%20M%C3%A9todo%20de%20Euler)
+  - El método de Euler es la forma más simple de resolver EDO numéricamente. Calcula el siguiente punto utilizando la pendiente actual. Aunque es fácil de implementar, su precisión y estabilidad son limitadas si no se usa un paso pequeño.
 * [Método de Runge-Kutta](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/4.%20M%C3%A9todo%20de%20Runge-Kutta)
+  - Los métodos de Runge-Kutta, especialmente el de cuarto orden, son técnicas de un paso que mejoran significativamente la precisión del método de Euler. Calculan varios promedios de la pendiente dentro del intervalo para obtener una mejor aproximación.
 * [Método de Taylor](https://github.com/Darcader69/Metodos-Numericos/tree/a0add31eeaf2b5055860451b3ce8c31abb7fc23d/C%C3%B3digos/Tema%206/5.%20M%C3%A9todo%20de%20Taylor)
+  - El método de Taylor utiliza una expansión en series de Taylor para aproximar soluciones de EDO. Al considerar derivadas de orden superior, ofrece gran precisión, pero requiere calcular derivadas adicionales, lo cual puede ser complejo para ciertas funciones.
