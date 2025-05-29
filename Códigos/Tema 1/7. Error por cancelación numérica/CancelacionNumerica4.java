@@ -6,3 +6,7 @@ public class CancelacionNumerica4 {
         System.out.println("Diferencia: " + c);
     }
 }
+//
+// Ejecución del programa
+// Diferencia: 1.0E-10
+//

@@ -5,3 +5,7 @@ public class ErrorFormulacion5 {
         System.out.println("Valor de f(x): " + fx);
     }
 }
+//
+// Ejecución del programa
+// Valor de f(x): 3.0
+//

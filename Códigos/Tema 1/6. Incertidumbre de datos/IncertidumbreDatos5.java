@@ -5,3 +5,8 @@ public class IncertidumbreDatos5 {
         System.out.println("Presión medida: " + p + ", real: " + p_real);
     }
 }
+//
+// Ejecución del programa
+// Presión medida: 3.0, real: 3.02
+// La incertidumbre de la medida es 0.02
+//

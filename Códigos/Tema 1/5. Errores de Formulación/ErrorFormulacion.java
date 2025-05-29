@@ -5,3 +5,7 @@ public class ErrorFormulacion {
         System.out.println("Altura caída libre: " + h);
     }
 }
+//
+// Ejecución del programa
+// Altura caída libre: 44.1
+//

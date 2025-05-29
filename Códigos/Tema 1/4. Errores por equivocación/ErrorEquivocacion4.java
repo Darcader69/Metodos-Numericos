@@ -5,3 +5,7 @@ public class ErrorEquivocacion4 {
         System.out.println("Tiempo incorrecto: " + tiempo);
     }
 }
+//
+// Ejecución del programa
+// Tiempo incorrecto: 3.6666666666666665
+//

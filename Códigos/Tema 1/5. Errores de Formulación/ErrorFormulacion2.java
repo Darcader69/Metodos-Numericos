@@ -5,3 +5,7 @@ public class ErrorFormulacion2 {
         System.out.println("Fuerza: " + f);
     }
 }
+//
+// Ejecución del programa
+// Fuerza: 20.0
+//

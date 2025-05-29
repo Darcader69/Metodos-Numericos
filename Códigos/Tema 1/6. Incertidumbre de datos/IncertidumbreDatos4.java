@@ -5,3 +5,8 @@ public class IncertidumbreDatos4 {
         System.out.println("Altura medida: " + h + ", real: " + h_real);
     }
 }
+//
+// Ejecución del programa
+// Altura medida: 1.5, real: 1.48
+// La incertidumbre de la medida es 0.02
+//

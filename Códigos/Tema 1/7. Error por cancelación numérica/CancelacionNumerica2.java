@@ -6,3 +6,7 @@ public class CancelacionNumerica2 {
         System.out.println("Diferencia: " + c);
     }
 }
+//
+// Ejecución del programa
+// Diferencia: 1.000000082740371E-9
+//

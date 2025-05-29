@@ -5,3 +5,7 @@ public class ErrorRedondeo5 {
         System.out.println("22 / 7 redondeado: " + redondeado);
     }
 }
+//
+// Ejecución del programa
+// 22 / 7 redondeado: 3.14
+//

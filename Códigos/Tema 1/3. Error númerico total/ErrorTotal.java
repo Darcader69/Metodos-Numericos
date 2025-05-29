@@ -6,3 +6,7 @@ public class ErrorTotal {
         System.out.println("Error total: " + error);
     }
 }
+//
+// Ejecución del programa
+// Error total: 0.00000000000000011102230246251565
+//

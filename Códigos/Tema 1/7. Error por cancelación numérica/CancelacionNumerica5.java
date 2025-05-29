@@ -6,3 +6,8 @@ public class CancelacionNumerica5 {
         System.out.println("Diferencia: " + c);
     }
 }
+
+//
+// Ejecución del programa
+// Diferencia: 1.000000082740371E-8
+//

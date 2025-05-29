@@ -6,3 +6,7 @@ public class ErrorEquivocacion5 {
         System.out.println("Distancia incorrecta: " + d);
     }
 }
+//
+// Ejecución del programa
+// Distancia incorrecta: 22.0
+//

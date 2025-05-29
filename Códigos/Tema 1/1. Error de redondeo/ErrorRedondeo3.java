@@ -5,3 +5,7 @@ public class ErrorRedondeo3 {
         System.out.println("Raíz de 2 redondeada: " + redondeado);
     }
 }
+//
+// Ejecución del programa
+// Raíz de 2 redondeada: 1.41
+//

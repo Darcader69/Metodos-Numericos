@@ -5,3 +5,7 @@ public class ErrorEquivocacion3 {
         System.out.println("Conversión incorrecta: " + c);
     }
 }
+//
+// Ejecución del programa
+// Conversión incorrecta: 58.333333333333336
+//

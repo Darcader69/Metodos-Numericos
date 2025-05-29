@@ -5,3 +5,7 @@ public class ErrorRedondeo2 {
         System.out.println("PI redondeado: " + redondeado);
     }
 }
+//
+// Ejecución del programa
+// PI redondeado: 3.1416
+//

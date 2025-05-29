@@ -5,3 +5,7 @@ public class ErrorEquivocacion2 {
         System.out.println("Área incorrecta: " + area);
     }
 }
+//
+// Ejecución del programa
+// Área incorrecta: 6.0
+//

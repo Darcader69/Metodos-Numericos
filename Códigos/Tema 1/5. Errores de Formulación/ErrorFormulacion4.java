@@ -5,3 +5,7 @@ public class ErrorFormulacion4 {
         System.out.println("Circunferencia: " + c);
     }
 }
+//
+// Ejecución del programa
+// Circunferencia: 31.41592653589793
+//

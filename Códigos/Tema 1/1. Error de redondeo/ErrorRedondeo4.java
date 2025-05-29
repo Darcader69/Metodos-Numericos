@@ -5,3 +5,8 @@ public class ErrorRedondeo4 {
         System.out.println("Número redondeado: " + redondeado);
     }
 }
+
+//
+// Ejecución del programa
+// Número redondeado: 7.778
+//

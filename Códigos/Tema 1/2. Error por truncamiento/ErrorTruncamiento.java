@@ -5,3 +5,7 @@ public class ErrorTruncamiento {
         System.out.println("Aproximación: " + approx);
     }
 }
+//
+// Ejecución del programa
+// Aproximación: 0.98
+//

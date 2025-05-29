@@ -5,3 +5,7 @@ public class ErrorFormulacion3 {
         System.out.println("Velocidad: " + v);
     }
 }
+//
+// Ejecución del programa
+// Velocidad: 10.0
+//
