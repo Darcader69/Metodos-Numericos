@@ -6,7 +6,7 @@
 #### Introducción:
 >Los métodos numéricos son técnicas algorítmicas diseñadas para resolver problemas matemáticos complejos mediante aproximaciones computacionales. A diferencia de los métodos analíticos, que buscan soluciones exactas, los métodos numéricos proporcionan resultados aproximados con un margen de error controlado, lo que los hace indispensables en situaciones donde las soluciones exactas son imposibles o impracticales de obtener.
 ### Métodos Correspondientes:
-*Relativos
-*Absoluto
-*Precisión
-*Truncamiento
+* Relativos
+* Absoluto
+* Precisión
+* Truncamiento
