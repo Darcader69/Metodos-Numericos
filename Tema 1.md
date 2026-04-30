@@ -2,7 +2,7 @@
 #### Introducción:
 >Los métodos numéricos son técnicas algorítmicas diseñadas para resolver problemas matemáticos complejos mediante aproximaciones computacionales. A diferencia de los métodos analíticos, que buscan soluciones exactas, los métodos numéricos proporcionan resultados aproximados con un margen de error controlado, lo que los hace indispensables en situaciones donde las soluciones exactas son imposibles o impracticales de obtener.
 ### Métodos Correspondientes:
-* [Error por truncamiento]
+* [Error por truncamiento](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20RELATIVOS)
   >- El error por truncamiento se origina al interrumpir una serie infinita o al simplificar una fórmula matemática en su desarrollo. Es característico de métodos que aproximan funciones continuas mediante polinomios o fórmulas discretas, como la derivación e integración numérica. Este error refleja la diferencia entre la solución exacta y su representación simplificada.
 * [Errores Relativos]
   >- El error relativo expresa la magnitud del error en proporción al valor real de una cantidad. Se obtiene dividiendo el error absoluto entre el valor exacto, lo que permite evaluar qué tan significativa es la diferencia respecto al tamaño del dato original. Es ampliamente utilizado para comparar precisiones entre resultados de distinta escala.
