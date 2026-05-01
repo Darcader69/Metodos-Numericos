@@ -11,7 +11,7 @@
 #### Introducción:
 > Los métodos numéricos para ecuaciones no lineales son procedimientos iterativos utilizados para encontrar raíces de funciones cuando no es posible despejarlas algebraicamente. Estos métodos permiten aproximar valores de (x) tales que (f(x)=0), siendo esenciales en ingeniería, física, economía y programación científica. Se clasifican comúnmente en métodos cerrados, que trabajan dentro de un intervalo donde existe una raíz, y métodos abiertos, que parten de estimaciones iniciales para converger hacia la solución.
 
-### [T-3 Métodos de solución de Sistemas de Ecuaciones]
+### [T-3 Métodos de solución de Sistemas de Ecuaciones](https://github.com/Darcader69/Metodos-Numericos/blob/main/Tema%203/tema%203.md)
 
 #### Introducción:
 > Los sistemas de ecuaciones lineales aparecen con frecuencia en problemas de ingeniería, física, estadística, economía y simulación computacional. Cuando el número de incógnitas crece o los cálculos manuales resultan extensos, los métodos numéricos permiten obtener soluciones de forma ordenada y eficiente. Estos procedimientos se dividen en métodos directos, que buscan la solución en una secuencia finita de operaciones, y métodos iterativos, que generan aproximaciones sucesivas hasta alcanzar una tolerancia deseada.
