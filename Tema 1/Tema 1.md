@@ -1,4 +1,3 @@
-### T-1 Introducción a los métodos númericos.
 ### Métodos Correspondientes:
 * [Error por truncamiento](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20TRUNCAMIENTO)
   >- El error por truncamiento se origina al interrumpir una serie infinita o al simplificar una fórmula matemática en su desarrollo. Es característico de métodos que aproximan funciones continuas mediante polinomios o fórmulas discretas, como la derivación e integración numérica. Este error refleja la diferencia entre la solución exacta y su representación simplificada.
