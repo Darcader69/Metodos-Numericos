@@ -24,57 +24,6 @@ donde:
 5. Repetir hasta cumplir la tolerancia.
 6. Mostrar la solución aproximada.
 
-### Pseudocódigo
-
-Inicio
-
-```
-Leer matriz A y vector B
-
-Inicializar X
-
-Repetir
-
-    Para i ← 1 hasta n
-
-        Calcular nuevo Xi
-
-    FinPara
-
-    Calcular error
-
-Hasta que error < tolerancia
-
-Mostrar solución
-```
-
-Fin
-
----
-
-## Método de Jacobi
-
-### Definición
-
-El método de Jacobi es un método iterativo para resolver sistemas de ecuaciones lineales. En cada iteración, todas las variables se recalculan utilizando exclusivamente los valores obtenidos en la iteración anterior. Esto permite realizar actualizaciones simultáneas y facilita su implementación en procesos paralelos.
-
-### Fórmula
-
-xᵢ^(k+1) = (1/aᵢᵢ) [ bᵢ - Σ(aᵢⱼxⱼ^(k)) ]
-
-para:
-
-j ≠ i
-
-### Algoritmo
-
-1. Elegir valores iniciales.
-2. Definir la tolerancia.
-3. Calcular todas las variables usando únicamente la iteración anterior.
-4. Calcular el error.
-5. Repetir hasta alcanzar la precisión requerida.
-6. Mostrar la solución.
-
 ### Código
 
 ```
@@ -112,6 +61,7 @@ print("z =", A[2][3])
 ```
 ### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%203/Ejercicios%20de%20Gauss%20Jordan)
 
+
 ### Pseudocódigo
 
 Inicio
@@ -125,13 +75,11 @@ Repetir
 
     Para i ← 1 hasta n
 
-        Calcular Xi_nuevo
+        Calcular nuevo Xi
 
     FinPara
 
-    Error ← máximo(|Xi_nuevo - Xi|)
-
-    Actualizar X
+    Calcular error
 
 Hasta que error < tolerancia
 
@@ -139,3 +87,5 @@ Mostrar solución
 ```
 
 Fin
+
+---
