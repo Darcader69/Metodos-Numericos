@@ -1,6 +1,6 @@
 ### Métodos Correspondientes:
 
-* [Método de Eliminación Gaussiana](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%203/Ejercicios%20de%20Eliminacion%20Gaussiana)
+* [Método de Eliminación Gaussiana](https://github.com/Darcader69/Metodos-Numericos/blob/main/Tema%203/Ejercicios%20de%20Eliminacion%20Gaussiana/Eliminacion%20Gaussiana.md)
 
   > * El método de eliminación gaussiana es un procedimiento directo que transforma la matriz aumentada del sistema en una forma triangular superior mediante operaciones elementales por filas. Una vez lograda esta estructura, las incógnitas se obtienen aplicando sustitución regresiva. Es uno de los algoritmos fundamentales del álgebra lineal computacional por su eficiencia y amplio uso práctico.
 
