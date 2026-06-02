@@ -57,7 +57,7 @@ print("Raíz aproximada:", c)
 
 # Raíz aproximada: 1.5213623046875
 ```
-### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%202/Ejercicios%20de%20Newton%20Raphson)
+### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%202/Ejercicios%20de%20bisecci%C3%B3n)
 
 
 ### Pseudocódigo
