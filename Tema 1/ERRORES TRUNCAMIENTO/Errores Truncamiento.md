@@ -41,7 +41,7 @@ print("Error generado:", error)
 #Número truncado a 4 decimales: 3.1415
 #Error generado: 9.265349999987293e-05
 ```
-### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20TRUNCAMIENTO
+### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20TRUNCAMIENTO)
 
 
 ### Pseudocódigo
