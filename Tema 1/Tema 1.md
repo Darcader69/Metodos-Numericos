@@ -1,9 +1,9 @@
 ### Métodos Correspondientes:
 * [Error por truncamiento](https://github.com/Darcader69/Metodos-Numericos/blob/main/Tema%201/ERRORES%20TRUNCAMIENTO/Errores%20Truncamiento.md)
   >- El error por truncamiento se origina al interrumpir una serie infinita o al simplificar una fórmula matemática en su desarrollo. Es característico de métodos que aproximan funciones continuas mediante polinomios o fórmulas discretas, como la derivación e integración numérica. Este error refleja la diferencia entre la solución exacta y su representación simplificada.
-* [Errores Relativos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20RELATIVOS)
+* [Errores Relativos](https://github.com/Darcader69/Metodos-Numericos/blob/main/Tema%201/ERRORES%20RELATIVOS/Errores%20relativos.md)
   >- El error relativo expresa la magnitud del error en proporción al valor real de una cantidad. Se obtiene dividiendo el error absoluto entre el valor exacto, lo que permite evaluar qué tan significativa es la diferencia respecto al tamaño del dato original. Es ampliamente utilizado para comparar precisiones entre resultados de distinta escala.
-* [Errores Absolutos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20ABSOLUTOS)
+* [Errores Absolutos](https://github.com/Darcader69/Metodos-Numericos/blob/main/Tema%201/ERRORES%20ABSOLUTOS/Error%20Absoluto.md)
   >- El error absoluto representa la diferencia numérica directa entre el valor exacto y el valor aproximado. Indica cuánto se aleja una medición o cálculo del resultado verdadero, sin considerar la escala del dato. Es una de las formas más básicas y comunes de cuantificar errores en métodos numéricos.
-* [Errores de Precisión](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20PRECISI%C3%93N)
+* [Errores de Precisión](https://github.com/Darcader69/Metodos-Numericos/blob/main/Tema%201/ERRORES%20PRECISI%C3%93N/Error%20Precisi%C3%B3n.md)
   >- El error de precisión surge debido a las limitaciones en la cantidad de cifras significativas que puede almacenar o representar un sistema numérico. Es frecuente en computadoras, donde los números reales deben ajustarse a formatos finitos. Esto puede provocar pequeñas variaciones acumulativas en cálculos repetitivos o complejos.
