@@ -59,7 +59,7 @@ print("z =", A[2][3])
 # y = -4.000000000000009
 # z = 6.000000000000005
 ```
-### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%203/Ejercicios%20de%20Gauss%20Jordan)
+### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%203/Ejercicios%20de%20Gauss%20Seidel)
 
 
 ### Pseudocódigo
