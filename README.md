@@ -20,3 +20,13 @@
 
 #### Introducción:
 > La integración numérica reúne técnicas empleadas para aproximar el valor de integrales definidas cuando la solución analítica es complicada, imposible de obtener o poco práctica. Estos métodos sustituyen el área exacta bajo una curva por sumas de figuras geométricas o combinaciones ponderadas de evaluaciones de la función. Son ampliamente utilizados en ingeniería, física, estadística, economía y simulación computacional para calcular áreas, volúmenes, probabilidades y magnitudes acumuladas.
+
+### T-5 Interpolación y Ajuste de Funciones.
+#### Introducción:
+
+> La interpolación y el ajuste de funciones son técnicas fundamentales de los métodos numéricos utilizadas para modelar y analizar datos. La interpolación permite construir una función que pasa exactamente por un conjunto de puntos conocidos, mientras que el ajuste de funciones busca obtener una expresión matemática que represente de la mejor manera una tendencia general en datos experimentales. Estas herramientas son ampliamente empleadas en ingeniería, ciencias aplicadas, estadística y simulación computacional para realizar estimaciones, predicciones y análisis de comportamiento de sistemas reales.
+
+### T-6 Solución de Ecuaciones Diferenciales.
+#### Introducción:
+
+> Las ecuaciones diferenciales son modelos matemáticos que describen fenómenos donde una variable depende de sus tasas de cambio respecto a otra. Debido a que muchas ecuaciones diferenciales no poseen soluciones analíticas sencillas, los métodos numéricos proporcionan aproximaciones eficientes para obtener resultados prácticos. Estas técnicas permiten analizar problemas relacionados con movimiento, transferencia de calor, crecimiento poblacional, circuitos eléctricos, dinámica de fluidos y numerosos procesos físicos e ingenieriles, convirtiéndose en una herramienta esencial para la simulación y el estudio de sistemas dinámicos complejos.
