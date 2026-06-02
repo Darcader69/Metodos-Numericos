@@ -1,4 +1,4 @@
-## Error por truncamiento ++
+## Error por truncamiento
 
 ### Definición
 
