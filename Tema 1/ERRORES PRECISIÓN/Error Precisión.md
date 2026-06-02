@@ -1,5 +1,5 @@
 
-## Errores de Precisión
+## [Errores de Precisión](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20PRECISI%C3%93N)
 
 ### Definición
 
