@@ -50,7 +50,7 @@ print("z =", round(z, 4))
 # y = 1.0
 # z = 1.0
 ```
-### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%202/Ejercicios%20de%20Newton%20Raphson)
+### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%203/Ejercicios%20de%20Jacobi)
 
 ### Pseudocódigo
 
