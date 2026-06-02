@@ -1,5 +1,5 @@
 ### Métodos Correspondientes:
-* [Error por truncamiento](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20TRUNCAMIENTO)
+* [Error por truncamiento]([https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20TRUNCAMIENTO](https://github.com/Darcader69/Metodos-Numericos/blob/main/Tema%201/ERRORES%20TRUNCAMIENTO/Errores%20Truncamiento.md))
   >- El error por truncamiento se origina al interrumpir una serie infinita o al simplificar una fórmula matemática en su desarrollo. Es característico de métodos que aproximan funciones continuas mediante polinomios o fórmulas discretas, como la derivación e integración numérica. Este error refleja la diferencia entre la solución exacta y su representación simplificada.
 * [Errores Relativos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20RELATIVOS)
   >- El error relativo expresa la magnitud del error en proporción al valor real de una cantidad. Se obtiene dividiendo el error absoluto entre el valor exacto, lo que permite evaluar qué tan significativa es la diferencia respecto al tamaño del dato original. Es ampliamente utilizado para comparar precisiones entre resultados de distinta escala.
