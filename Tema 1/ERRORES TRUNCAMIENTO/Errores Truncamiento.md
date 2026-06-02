@@ -1,4 +1,4 @@
-## [Error por truncamiento](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20TRUNCAMIENTO)
+## Error por truncamiento ++
 
 ### Definición
 
@@ -25,6 +25,24 @@ donde:
 2. Construir una aproximación utilizando un número limitado de términos.
 3. Calcular la diferencia entre el valor exacto y la aproximación.
 4. Analizar la magnitud del error generado.
+
+### Código
+
+```
+numero = 3.1415926535
+truncado = int(numero * 10000) / 10000
+error = numero - truncado
+
+print("Número original:", numero)
+print("Número truncado a 4 decimales:", truncado)
+print("Error generado:", error)
+
+#Número original: 3.1415926535
+#Número truncado a 4 decimales: 3.1415
+#Error generado: 9.265349999987293e-05
+```
+### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%201/ERRORES%20TRUNCAMIENTO
+
 
 ### Pseudocódigo
 
