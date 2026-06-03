@@ -19,28 +19,43 @@ r = [nΣxy - (Σx)(Σy)] / √([nΣx² - (Σx)²][nΣy² - (Σy)²])
 ### Código
 
 ```python
+# ==================================================
+# CORRELACIÓN LINEAL
+# Ejercicio 1
+# ==================================================
+
 import math
 
-x = [1,2,3,4,5]
-y = [2,4,5,4,5]
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 5, 4, 5]
 
 n = len(x)
 
-sx = sum(x)
-sy = sum(y)
+sum_x = sum(x)
+sum_y = sum(y)
 
-sxy = sum(x[i]*y[i] for i in range(n))
-sx2 = sum(valor**2 for valor in x)
-sy2 = sum(valor**2 for valor in y)
+sum_xy = 0
+sum_x2 = 0
+sum_y2 = 0
 
-r = ((n*sxy)-(sx*sy)) / math.sqrt(
-    ((n*sx2)-(sx**2)) *
-    ((n*sy2)-(sy**2))
+for i in range(n):
+    sum_xy += x[i] * y[i]
+    sum_x2 += x[i] ** 2
+    sum_y2 += y[i] ** 2
+
+numerador = (n * sum_xy) - (sum_x * sum_y)
+
+denominador = math.sqrt(
+    ((n * sum_x2) - (sum_x ** 2)) *
+    ((n * sum_y2) - (sum_y ** 2))
 )
 
-print("Correlación:", round(r,4))
+r = numerador / denominador
 
-# Correlación: 0.7746
+print("Coeficiente de correlación =", round(r, 4))
+
+# Resultado:
+# Coeficiente de correlación = 0.7746
 ```
 
 ### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%205/Correlaci%C3%B3n%20Lineal)
