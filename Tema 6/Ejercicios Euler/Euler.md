@@ -63,7 +63,7 @@ for i in range(n):
     #10               1.0     3.1875
 ```
 
-### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%206/M%C3%A9todo%20de%20Euler)
+### [Códigos](https://github.com/Darcader69/Metodos-Numericos/tree/main/Tema%206/Ejercicios%20Euler)
 
 ### Pseudocódigo
 
