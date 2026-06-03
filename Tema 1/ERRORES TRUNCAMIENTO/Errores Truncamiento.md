@@ -28,7 +28,7 @@ donde:
 
 ### Código
 
-```
+```python
 numero = 3.1415926535
 truncado = int(numero * 10000) / 10000
 error = numero - truncado
