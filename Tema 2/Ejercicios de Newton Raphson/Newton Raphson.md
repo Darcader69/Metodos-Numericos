@@ -18,7 +18,7 @@ x(n+1) = x(n) - f(x(n))/f'(x(n))
 
 ### Código
 
-```
+```python
 def f(x):
     return x**3 - x - 2
 
