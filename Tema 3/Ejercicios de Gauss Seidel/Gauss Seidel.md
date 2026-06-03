@@ -26,7 +26,7 @@ donde:
 
 ### Código
 
-```
+```python
 print("\nEJERCICIO 1")
 
 A = [

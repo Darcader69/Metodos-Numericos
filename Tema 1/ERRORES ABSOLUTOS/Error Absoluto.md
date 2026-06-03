@@ -17,7 +17,7 @@ Ea = |Valor Exacto - Valor Aproximado|
 
 ### Código
 
-```
+```python
 real = 250
 aprox = 243
 

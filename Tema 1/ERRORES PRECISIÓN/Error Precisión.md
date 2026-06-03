@@ -30,7 +30,7 @@ donde:
 
 ### Código
 
-```
+```python
 numero = 1 / 3
 
 print("Valor completo:", numero)

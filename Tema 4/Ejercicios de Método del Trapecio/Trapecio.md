@@ -30,7 +30,7 @@ donde:
 
 ### Código
 
-```
+```python
 print("MÉTODO DEL TRAPECIO")
 
 def f(x):

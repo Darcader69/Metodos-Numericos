@@ -34,7 +34,7 @@ entonces la raíz pertenece al intervalo [c,b].
 
 ### Código
 
-```
+```python
 import math
 def f1(x):
     return x**3 - x - 2

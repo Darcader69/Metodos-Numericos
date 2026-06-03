@@ -28,7 +28,7 @@ Er% = (Ea / |Valor Exacto|) × 100
 
 ### Código
 
-```
+```python
 valor_real = 100
 valor_aproximado = 96
 

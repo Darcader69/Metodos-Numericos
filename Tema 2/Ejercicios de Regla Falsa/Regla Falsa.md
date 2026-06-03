@@ -19,7 +19,7 @@ c = (a·f(b) - b·f(a)) / (f(b) - f(a))
 
 ### Código
 
-```
+```python
 def f(x):
     return x**3 - x - 2
 
