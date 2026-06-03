@@ -56,7 +56,7 @@ I ≈ ((b-a)/2) Σ wi · f(xi)
 
 ### Código
 
-```
+```python
 import math
 
 
