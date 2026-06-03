@@ -30,7 +30,7 @@ donde:
 
 ### Código
 
-```
+```python
 print("EJERCICIO 1")
 
 def f(x):
