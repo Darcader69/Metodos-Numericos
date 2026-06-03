@@ -18,7 +18,7 @@ x(n+1) = x(n) - [f(x(n))(x(n)-x(n-1))] / [f(x(n))-f(x(n-1))]
 
 ### Código
 
-```
+```python
 def f(x):
     return x**3 - x - 2
 
