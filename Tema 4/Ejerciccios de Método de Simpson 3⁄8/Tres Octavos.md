@@ -28,7 +28,7 @@ I ≈ (3h/8) · [f(x₀)+3Σf(xᵢ)+2Σf(xⱼ)+f(xₙ)]
 
 ### Código
 
-```
+```python
 print("EJERCICIO 1")
 
 def f(x):
