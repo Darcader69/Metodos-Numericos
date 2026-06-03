@@ -23,7 +23,7 @@ j ≠ i
 
 ### Código
 
-```
+```python
 print("EJERCICIO 1")
 
 x = y = z = 0
